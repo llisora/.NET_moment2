@@ -1,0 +1,19 @@
+@model List<GamesMvc.Models.GameModel>
+@{
+    ViewData["Title"] = "Startsida";
+}
+
+<h1>ASP.NET Core MVC</h1>
+<h2>Spel som jag har spelat!</h2>
+<ul>
+    @foreach (var game in Model)
+    {
+        <br />
+        <li style="color: #4d2828;">@game.Title - @game.Console (Betyg: ✰ @game.Rating/10 ✰) <br>
+            <b>@game.Recommend</b>
+        </li>
+        <br />
+    }
+</ul>
+
+<div>@ViewBag.Message</div>

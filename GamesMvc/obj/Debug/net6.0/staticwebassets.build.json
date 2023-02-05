@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "E2UGPGHizGEa4VOl4mdG6LO9WmzSPYHGH0FmTyizEPs=",
+  "Source": "GamesMvc",
+  "BasePath": "_content/GamesMvc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GamesMvc/wwwroot",
+      "Source": "GamesMvc",
+      "ContentRoot": "/Users/lisabacklin/Desktop/skola2/NET/moment2/GamesMvc/wwwroot/",
+      "BasePath": "_content/GamesMvc",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/lisabacklin/Desktop/skola2/NET/moment2/GamesMvc/wwwroot/css/main.css",
+      "SourceId": "GamesMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lisabacklin/Desktop/skola2/NET/moment2/GamesMvc/wwwroot/",
+      "BasePath": "_content/GamesMvc",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/main.css"
+    }
+  ]
+}

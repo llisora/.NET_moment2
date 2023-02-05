@@ -1,0 +1,52 @@
+@model GamesMvc.Models.GameModel;
+@{
+    ViewData["Title"] = "Spel";
+}
+
+<h2>Lägg till spel</h2>
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <label asp-for="Title"></label>
+    <br />
+    <input asp-for="Title">
+    <span asp-validation-for="Title"></span>
+    <br>
+    <label asp-for="Console"></label>
+    <br />
+    <input asp-for="Console">
+    <span asp-validation-for="Console"></span>
+    <br>
+    <label asp-for="Rating"></label>
+    <br />
+    <select asp-for="Rating">
+
+        <option value=""></option>
+
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    <span asp-validation-for="Rating"></span>
+    <br>
+
+    <div>
+        <input type="radio" asp-for="Recommend" value="Jag rekommenderar spelet" checked>
+        <label>Jag rekommenderar spelet</label>
+    </div>
+
+    <div>
+        <input type="radio" asp-for="Recommend" value="Jag rekommenderar inte spelet" >
+        <label>Jag rekommenderar inte spelet</label>
+    </div>
+    <span asp-validation-for="Recommend"></span>
+
+    <input type="submit" value="Lägg till spel">
+</form>

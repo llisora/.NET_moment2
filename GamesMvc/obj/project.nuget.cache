@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RwsbUPvFiwM3VQF1QGzl1TmKq8c0/QXtvLD1lbeJal4dZvHg+H0vaXG+9WRz1lQgbrM5/fIPrm/UptBfiY6wfA==",
+  "success": true,
+  "projectFilePath": "/Users/lisabacklin/Desktop/skola2/NET/moment2/GamesMvc/GamesMvc.csproj",
+  "expectedPackageFiles": [
+    "/Users/lisabacklin/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
