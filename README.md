@@ -4,7 +4,7 @@
 
 Målet är att ni ska:
 
-Ska skapa ett enkelt projekt som bygger på designmönstret MVC.
-Förstå filuppdelningen och MVC-arkitekturen.
-Förstå kopplingen mellan routing,URL och vilken kod som exekveras i controllern.
+Ska skapa ett enkelt projekt som bygger på designmönstret MVC.<br>
+Förstå filuppdelningen och MVC-arkitekturen.<br>
+Förstå kopplingen mellan routing,URL och vilken kod som exekveras i controllern.<br>
 Förstå var logik skall placeras och varför."
